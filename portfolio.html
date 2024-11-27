@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"rel="stylesheet"/>
+    <script src="js/bootstrap.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suhel Ali</title>
+    <style>
+    .container{
+        min-height: 2800px;
+        background-color: green;
+    }
+    .top1{
+        min-height: 50px;
+        background-color:whitesmoke;
+        line-height: 50px;
+    }
+    .top1 i{
+        height: 50px;
+        width: 50px;
+    }
+    .navbar{
+        min-height: 50px;
+        background-color: whitesmoke;
+    }
+    .navbar1{
+        min-height: 50px;
+        background-color: whitesmoke;
+        padding: 10px;
+        box-sizing: border-box;
+        display: flex;
+        line-height: 50px;
+    }
+    .center1{
+        min-height: 600px;
+        background-color: whitesmoke;
+        display: flex;
+    }
+    .image{
+        min-height: 600px;
+        background-color: rgb(249, 233, 233) !important;
+    }
+    .content{
+        min-height: 600px;
+        background-color: rgb(249, 233, 233) !important;
+    }
+    .ourproject{
+      min-height: 500px;
+      background-color: rgb(249, 233, 233);
+    }
+    .card{
+     background-color: whitesmoke;
+    }
+    .myskills{
+      min-height: 300px;
+      background-color: rgb(249, 233, 233) !important;
+    }
+    #slider1{
+                height: 250px;
+                animation-name: slider1;
+                animation-duration: 5s;
+                animation-iteration-count: infinite;
+                animation-play-state: running;
+                transition: 2s;
+                
+            }
+            #slider1:hover{
+              animation-play-state: paused;
+            }
+            .logo{
+              min-height: 125px;
+            }
+              @keyframes slider1{
+                0%{
+                    background-image: url(IMAGE/p1.png);
+                    background-size: cover;
+
+                }
+                25%{
+                    background-image: url(IMAGE/p2.png);
+                    background-size: cover;
+
+                }
+                50%{
+                    background-image: url(IMAGE/p3.png);
+                    background-size: cover;
+
+                }
+                75%{
+                    background-image: url(IMAGE/p4.png);
+                    background-size: cover;
+
+                }
+                100%{
+                    background-image: url(IMAGE/p5.png);
+                    background-size: cover;
+
+                }
+              }
+              .myjourney{
+                min-height: 450px;
+                
+              }
+              #Journey{
+                
+                transition: 2s;
+              }
+              #Journey:hover{
+                transform: scale(.9);
+                transition: 2s;
+                box-shadow: 5px 5px 10px black;
+                
+              }
+              .aboutme{
+                min-height: 500px;
+                background-color:rgb(249, 233, 233) ;
+              }
+              .circle{
+                animation-name: glow;
+                animation-duration: 2s;
+                animation-iteration-count: infinite;
+              }
+              @keyframes glow{
+                0%{
+                  box-shadow: 0px 0px 10px #0f99d5;
+                }
+                50%{
+                  box-shadow: 0px 0px 20px #0f99d5 0px 0px 40px #0f99d5 0px 0px 60px #0f99d5;
+                }
+                100%{
+                  box-shadow: 0px 0px 60px #0f99d5 0px 0px 80px #0f99d5 0px 0px 100px #0f99d5;
+                }
+
+              }
+              .footer{
+                min-height: 50px;
+              }
+              #btn{
+                transition: 2s;
+              }
+              #btn:hover{
+                box-shadow:0px 0px  20px black;
+                transition: 2s;
+                transform: scale(1.1);
+              }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4 top1" id="up">
+                <i class="ri-mail-line" style="font-size: 30px;color: green;"></i>
+                <b>Email:suhellovemom@gmail.com</b>
+            </div>
+            <div class="col-sm-4 top1">
+                <marquee  direction="right" height="50px" style="font-size: 30px;">I'm <b style="color: green;">Full Stack Developer</b></marquee>
+            </div>
+            <div class="col-sm-4 top1">
+                <a href="https://wa.me/918303962778"><i class="ri-whatsapp-line" style="font-size: 40px;background-color: black; border-radius: 50%;box-shadow: 0px 0px 5px black;"></i></a>&nbsp;&nbsp;&nbsp;
+                <a href="https://www.instagram.com/suhel__pathan_/"><i class="ri-instagram-line" style="font-size: 40px;background-color: black; border-radius: 50%;box-shadow: 0px 0px 5px black;"></i>&nbsp;&nbsp;&nbsp;</a>
+                <a href="https://www.facebook.com/suhel.ali.14661261"><i class="ri-facebook-fill" style="font-size: 40px;background-color: black; border-radius: 50%;box-shadow: 0px 0px 5px black;"></i></a>&nbsp;&nbsp;&nbsp;
+                <a href="https://www.linkedin.com/feed/"><i class="ri-linkedin-fill" style="font-size: 40px;background-color: black; border-radius: 50%;box-shadow: 0px 0px 5px black;"></i></a>&nbsp;&nbsp;&nbsp;
+                <a href="https://github.com/"><i class="ri-github-fill" style="font-size: 40px;background-color: black; border-radius: 50%;box-shadow: 0px 0px 5px black;"></i></a>
+            </div>
+        </div>
+        <div class="row">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                  <div class="col-sm-4" style="background-color: whitesmoke;">
+                    <center>
+                        <a class="navbar-brand" href="#" style="font-size: 40px; font-family: Century;text-align: center;">Suhel Ali</a>
+                    </center>
+                  </div>
+                  <div class="col-sm-8" style="background-color: whitesmoke;">
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#" style="font-size: 25px; color: green;">Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#project1" style="font-size: 25px;">Our Project</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#skills1" style="font-size: 25px;">My Skills</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#journey1" style="font-size: 25px;">My Journey</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page"  style="font-size: 25px;" href="#about1">About Me</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" style="font-size: 25px;"href="./FORM.HTML" target="_blank">Contacts</a>
+                          </li>
+                        </ul>
+                      </div>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                    </div>
+                </div>
+              </nav>
+                  </div>
+                  <div class="row center1 ">
+                    <div class="col-sm-2" style="background-color: rgb(249, 233, 233);"></div>
+                    <div class="col-sm-4 bg-info image">
+                        <center>
+                            <img src="./suhel b&w.png" height="300px" style="border-radius: 30%; padding:20px;box-sizing: border-box;box-shadow: 5px 5px 10px black;"><br/><br/>
+                            <b style="font-size: 40px;font-family: serif;">SUHEL ALI</b>
+                            <hr/ style="font-weight:bolder;width: 300px;color: black;">
+                            <a href="https://www.linkedin.com/feed/"><i class="ri-linkedin-fill" style="font-size: 60px; background-color: black; border-radius: 50%; text-decoration: none;box-shadow: 5px 5px 10px black;"></i></a>&nbsp;&nbsp;&nbsp;
+                            <a href="https://github.com/"><i class="ri-github-fill" style="font-size: 60px;background-color: black; border-radius: 50%; text-decoration: none;box-shadow: 5px 5px 10px black;"></i></a>
+                        </center>
+                    </div>
+                    <div class="col-sm-4 bg-warning content">
+                        <center>
+                            <h1 style="font-size: 40px; text-align: center;padding-top: 20px; box-sizing: border-box;">Hello!</h1>
+                            <h2 style="text-align: justify;padding: 10px;box-sizing: border-box;font-family: Cambria;">I am Suhel Ali <b style="color: green;">Backend & Frontend</b> Developer in a Web Development</h2>
+                            <button class="btn btn-outline-success" type="button" style="font-weight: bold;"><a href="./SUHEL_RESUME.pdf" target="_blank" style="text-decoration: none;color: darkgreen;">DOWNLOAD RESUME</a></button><br/><br/>
+                            <h3 style="font-size: 20px;padding: 10px; box-sizing: border-box;text-align: justify;font-family: Cambria;">
+                                I am student of KASHI INSTITUTE OF TECHNOLOGY B-Tech final year in present my branch is Computer Science with Artificial Intelligence Machine Learning. 
+                                I have completed diploma in branch Mechnaical Engineer. My skills is 
+                                <b style="color: green;">Python, HTML, CSS, Bootstrap, JavaScript, Node JS</b>,etc.
+                                I have created many project in different different languages.
+                            </h3>
+                        </center>
+                    </div>
+                    <div class="col-sm-2" style="background-color:rgb(249, 233, 233) ;"></div>
+                </div>
+                <div class="row ourproject" id="project1" >
+                  <div class="col-sm-12">
+                    <div class="row " >
+                      <div class="col-sm-12">
+                        <center>
+                          <h1 style="font-family: serif;">Our <b style="color: green;">Project <i class="ri-clipboard-fill"></i></b></h1>
+                        </center>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-sm-4 p-2" >
+                        <center>
+                          <div class="card restuarant" style="width: 18rem; height: 500px;">
+                            <img src="#slider1" style="height: 300px;border: 1px solid black; border: none;" id="slider1" class="card-img-top" alt="...">
+
+                            <div class="card-body">
+                              <h5 class="card-title" style="color: green;text-decoration: underline;">Restaurant Website</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="https://github.com/" class="btn btn-outline-success">GitHub</a>
+                            </div>
+                          </div>
+                        </center>
+                      </div>
+                      <div class="col-sm-4  p-2" >
+                        <center>
+                          <div class="card" style="width: 18rem;height: 500px;">
+                            <img src="https://sgtechtechnologies.netlify.app/images/study-app.jpg" style="background-attachment: fixed;height: 300px;" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title" style="color: green;text-decoration: underline;">My Portfolio</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="https://github.com/" class="btn btn-outline-success">GitHub</a>
+                            </div>
+                          </div>
+                        </center>
+                      </div>
+                      <div class="col-sm-4 p-2"  >
+                        <center>
+                          <div class="card" style="width: 18rem; height: 500px;">
+                            <img style="background-attachment: fixed;height: 300px;" src="https://sgtechtechnologies.netlify.app/images/shayrana-app.jpg" class="card-img-top" alt="...">
+                            <div class="card-body card">
+                              <h5 class="card-title" style="color: green;text-decoration: underline;">My Portfolio</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <center>
+                                <a href="https://github.com/" class="btn btn-outline-success" style="width: 80px;height: 40px;">GitHub</a>
+                              </center>
+                            </div>
+                          </div>
+                        </center>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="myskills" id="skills1">
+                  <div class="col-sm-12">
+                    <div class="row" style="min-height: 50px; background-color: rgb(249, 233, 233);">
+                      <center>
+                        <h1 style="font-family: serif;">My <b style="color: green;">Skills <i class="ri-pencil-fill"></i></b></h1>
+                      </center>
+                    </div>
+                  </div>
+                  <div class="row" style="min-height: 250px;">
+                    <div class="col-sm-12" style="background-color:rgb(249, 233, 233) ;">
+                      <center>
+                      <button type="button" class="btn btn-outline-success" style="width: 320px; height: 50px;margin:20px; font-size: 25px;" id="btn">HTML</button>
+                      <button type="button" class="btn btn-outline-success" style="width: 320px; height: 50px;margin:20px; font-size: 25px;" id="btn">CSS</button>
+                      <button type="button" class="btn btn-outline-success" style="width: 320px; height: 50px;margin:20px; font-size: 25px;" id="btn">Bootstrap</button>
+                      <button type="button" class="btn btn-outline-success" style="width: 320px; height: 50px;margin:20px; font-size: 25px;" id="btn">JavaScript</button>
+                      <button type="button" class="btn btn-outline-success" style="width: 320px; height: 50px;margin:20px; font-size: 25px;" id="btn">Java</button>
+                      <button type="button" class="btn btn-outline-success" style="width: 320px; height: 50px;margin:20px; font-size: 25px;" id="btn">My SQL</button>
+                      <button type="button" class="btn btn-outline-success" style="width: 320px; height: 50px;margin:20px; font-size: 25px;" id="btn">Node JS</button>
+                      <button type="button" class="btn btn-outline-success" style="width: 320px; height: 50px;margin:20px; font-size: 25px;" id="btn">React JS</button>
+                      <button type="button" class="btn btn-outline-success" style="width: 320px; height: 50px;margin:20px; font-size: 25px;" id="btn">HTML</button>
+                    </center>
+                    </div>
+                  </div>
+                </div>
+                <div class="myjourney bg-warning" id="journey1">
+                  <div class="col-sm-12">
+                    <div class="row" style="min-height: 50px; background-color: rgb(249, 233, 233);">
+                      <center>
+                        <h1 style="font-family: serif;">My <b style="color: green;">Journey <i class="ri-graduation-cap-fill"></i></i></b></h1>
+                      </center>
+                    </div>
+                  </div>
+                  <div class="row" >
+                    <!--<div class="col-sm-1" style="min-height: 400px; background-color: rgb(249, 233, 233);"></div>-->
+                    <div class="col-sm-6" style="min-height: 400px; background-color:rgb(249, 233, 233);">
+                      <div class="row">
+                        <div class="col-sm-12" style="min-height: 50px;border: 1px solid black; border-radius: 10px;margin: 10px auto; font-size: 40px;font-family: serif; background-color: whitesmoke;" id="Journey">Education <i class="ri-school-fill"></i></div>
+                        <div class="col-sm-12" style="min-height: 100px;border: 1px solid black; border-radius: 10px;margin: 10px auto; background-color: whitesmoke;padding: 10px ;" id="Journey">
+                          <h3 style="color:green;">2022-2024 <i class="ri-graduation-cap-fill"></i></h3>
+                          <h5 style="color: black; text-decoration: underline;">B-Tech Degree:Kashi Institute Of Technology</h5>
+                          <h6>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam rerum quae nesciunt itaque odio iure deleniti obcaecati voluptates</h6>
+                        </div>
+                        <div class="col-sm-12" style="min-height: 100px;border: 1px solid black; border-radius: 10px;margin: 10px auto;background-color: whitesmoke;" id="Journey">
+                          <h3 style="color:green;">2022-2024 <i class="ri-graduation-cap-fill"></i></h3>
+                          <h5 style="color: black; text-decoration: underline;">B-Tech Degree:Kashi Institute Of Technology</h5>
+                          <h6>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam rerum quae nesciunt itaque odio iure deleniti obcaecati voluptates</h6>
+                        </div>
+                        <div class="col-sm-12 bg-light" style="min-height: 100px;border: 1px solid black; border-radius: 10px;margin: 10px auto;background-color: whitesmoke;" id="Journey">
+                          <h3 style="color:green;">2022-2024 <i class="ri-graduation-cap-fill"></i></h3>
+                          <h5 style="color: black; text-decoration: underline;">B-Tech Degree:Kashi Institute Of Technology</h5>
+                          <h6>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam rerum quae nesciunt itaque odio iure deleniti obcaecati voluptates</h6>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6" style="min-height: 400px; background-color:rgb(249, 233, 233);">
+                      <div class="row">
+                        <div class="col-sm-12" style="min-height: 50px;border: 1px solid black; border-radius: 10px;margin: 10px auto; font-size: 40px;font-family: serif; background-color: whitesmoke;" id="Journey">Experience <i class="ri-briefcase-fill"></i> </div>
+                        <div class="col-sm-12" style="min-height: 100px;border: 1px solid black; border-radius: 10px;margin: 10px auto; background-color: whitesmoke;padding: 10px ;" id="Journey">
+                          <h3 style="color:green;">2022-2024 <i class="ri-graduation-cap-fill"></i></h3>
+                          <h5 style="color: black; text-decoration: underline;">B-Tech Degree:Kashi Institute Of Technology</h5>
+                          <h6>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam rerum quae nesciunt itaque odio iure deleniti obcaecati voluptates</h6>
+                        </div>
+                        <div class="col-sm-12" style="min-height: 100px;border: 1px solid black; border-radius: 10px;margin: 10px auto;background-color: whitesmoke;" id="Journey">
+                          <h3 style="color:green;">2022-2024 <i class="ri-graduation-cap-fill"></i></h3>
+                          <h5 style="color: black; text-decoration: underline;">B-Tech Degree:Kashi Institute Of Technology</h5>
+                          <h6>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam rerum quae nesciunt itaque odio iure deleniti obcaecati voluptates</h6>
+                        </div>
+                        <div class="col-sm-12 bg-light" style="min-height: 100px;border: 1px solid black; border-radius: 10px;margin: 10px auto;background-color: whitesmoke;" id="Journey">
+                          <h3 style="color:green;">2022-2024 <i class="ri-graduation-cap-fill"></i></h3>
+                          <h5 style="color: black; text-decoration: underline;">B-Tech Degree:Kashi Institute Of Technology</h5>
+                          <h6>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam rerum quae nesciunt itaque odio iure deleniti obcaecati voluptates</h6>
+                        </div>
+                    </div>
+                    <!--<div class="col-sm-1" style="min-height: 400px; background-color: rgb(249, 233, 233);"></div>-->
+                  </div>
+                </div>
+        </div>
+        <div class="row aboutme" id="about1">
+          <div class="col-sm-12 " style="min-height: 500px; background-color: rgb(249, 233, 233);">
+            <div class="row">
+              <div class="col-sm-12" style="min-height: 50px; background-color:rgb(249, 233, 233) ;">
+                <h1 style="text-align: center;font-family: serif;font-size: 40px;">About <b style="color: green; font-size: 40px;">Me <i class="ri-account-circle-fill"></i></b></h1>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-2"></div>
+              <div class="col-sm-4" style="min-height: 450px; background-color: rgb(249, 233, 233);">
+                
+                <center>
+                  <img src="./suhel b&w.png" height="200px"; width="200px"; style="margin: 50px auto; border-radius: 50%; transition: 2s;" class="circle"/>
+                  <h2 style="font-family: serif; font-weight: bold; font-size: 40px;">Suhel Ali</h2>
+                  <h4>I'm Fullstack <b style="color: green;">Developer</b></h4>
+                </center>
+              </div>
+              <div class="col-sm-4" style="min-height: 450px;background-color: rgb(249, 233, 233);">
+                <center>
+                  <h2 style="font-size: 40px; color: green;font-family: cursive;">Hello!</h2><br/>
+                  <h3 style="font-size: 25px;font-family: cursive; font-weight: bold;">I'm a Full Stack Developer</h3><br/>
+                  <h5 style="font-family: cursive; text-align: justify;">I am student of KASHI INSTITUTE OF TECHNOLOGY B-Tech final year in present my branch is Computer Science with Artificial Intelligence Machine Learning. 
+                    I have completed diploma in branch Mechnaical Engineer. My skills is 
+                    <b style="color: green;">Python, HTML, CSS, Bootstrap, JavaScript, Node JS</b>,etc.
+                    I have created many project in different different languages.</h5>
+                </center>
+              </div>
+              <div class="col-sm-2"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row footer">
+          <div class="col-sm-12 " style="background-color: rgb(249, 233, 233);">
+            <center>
+              <h3>Copyright <i class="ri-copyright-fill"></i>   <b style="font-size: 20px;">Suhel Ali 2024</b>   <a href="#up"><button style="border-radius: 50%;" class="btn btn-success"><i class="ri-arrow-up-line"></i></button></a></h3>
+            </center>
+          </div>
+        </div>
+    </div>
+    <!--<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            
+              <h1 class="modal-title fs-5 mx-auto" id="exampleModalLabel">Contact<b style="color: red;">Us</b></h1>
+          
+          
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    
+            </div>
+          <div class="modal-body">
+           <form action="https://api.web3forms.com/submit"
+           method="POST"
+           >
+            <input type="hidden"
+            name="access_key"
+            value="eda8d55c-49ce-4b45-9878-f47bcd4dfb1e"
+            />
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Name</label>
+              <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Enter name..">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Email</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter email..">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+           </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary">Send Message</button>
+          </div>
+        </div>
+      </div>
+    </div>-->
+  </body>
+</html>

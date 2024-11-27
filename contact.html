@@ -1,0 +1,83 @@
+<html></html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            body{
+                color: wheat;
+            }
+            #outer{
+                height: 600px;
+                width: 1000px;
+                background-color: white;
+                margin: 0px auto;
+                display: flex;
+            }
+            #right{
+                height: 600px;
+                width: 500px;
+                background-color: wheat;
+                border: 1px solid black;
+                border: none;
+                margin: 0px auto;
+            }
+            .txt{
+                font-size: 20px;
+                padding-left: 20px;
+                box-sizing: border-box;
+            }
+            .txt1{
+                height: 50px;
+                width: 480px;
+                font-size: 20px;
+                
+            }
+            .txt1:hover{
+              box-shadow: 0px 0px 5px blue;
+            }
+            #msg{
+                height: 100px;
+                width: 480px;
+                font-size: 20px;
+            }
+            #msg:hover{
+              box-shadow: 0px 0px 5px blue;
+            }
+            #btn:hover{
+                color: yellow;
+                box-shadow: 0px 0px 10px rgb(242, 6, 6);
+                
+            }
+        </style>
+        <body>
+            <div id="outer">
+                <div id="right">
+                        <center>
+                          <h1 style="color: black;padding-left: 20px;"><b style="color: red;">Contact</b>Us</h1><br/>
+                        </center>
+                        <hr/>
+                        <tr>
+                            <td><b style="color: black;" class="txt">Full Name:</b></td><br/>
+                            <center style="padding: 20px; box-sizing: border-box;">
+                                <input type="text" placeholder="Name...." class="txt1" style="border-radius: 10px;"/>
+                            </center>
+                        </tr><br/>
+                        <tr>
+                            <td><b style="color: black;"class="txt">Email:</b></td><br/>
+                            <center style="padding: 20px; box-sizing: border-box;">
+                                <input type="email" placeholder="Email...." class="txt1" style="border-radius: 10px;"/>
+                            </center>
+                        </tr><br/>
+                        <tr>
+                            <td><b style="color: black;"class="txt">Message:</b></td><br/>
+                            <center style="padding: 20px; box-sizing: border-box;">
+                                <input type="text" placeholder="Message...." id="msg" style="border-radius: 20px;"/><br/>
+                            </center>
+                            <center>
+                                <button style="background-color: green; height: 60px; width: 250px; font-size: 30px;border-radius: 20px;" id="btn">Send Message</button>
+                            </center>
+                        </tr>
+                </div>
+            </div>
+        </body>
+    </head>
+</html>
